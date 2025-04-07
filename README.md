@@ -28,7 +28,7 @@ GotlandAccommodationTests/
 │
 ├── TEST-CASES.md                  # Test cases for this project
 ├── playwright.config.ts           # Playwright configuration
-├── Dockerfile                     # Docker setup for running tests in isolated container
+├── Dockerfile                     # Docker setup for running tests in an isolated container
 ├── .dockerignore                  # Files to exclude from Docker image
 ├── package.json                   # Project metadata and scripts
 ├── tsconfig.json                  # TypeScript compiler options
@@ -45,7 +45,7 @@ GotlandAccommodationTests/
 - Submit the search
 - Store the name of the first accommodation from the results list
 - Click "Book" and choose the first available "Book now" option
-- Verify the selected accommodation name matches the one shown in the basket
+- Verify that the selected accommodation name matches the one shown in the basket
 - Clean up by removing the item from the basket
 
 ### ✅ **TC1-02: Book Across Month Boundary**
@@ -171,6 +171,13 @@ npx playwright test --grep @smoke
 - Each test includes **auto-cleanup** logic that removes selected items from the basket after assertions
 
 ---
+
+✅ CI Integration
+The project uses GitHub Actions to run tests on each push or pull request to main.
+
+Workflow file: .github/workflows/playwright.yml
+
+___
 
 ## 🧑‍💻 Author
 
