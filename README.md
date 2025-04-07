@@ -63,7 +63,7 @@ GotlandAccommodationTests/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/GotlandAccommodationTests.git
+git clone https://github.com/antonicnenad/gotland-playwright-tests.git
 cd GotlandAccommodationTests
 ```
 
@@ -168,7 +168,7 @@ npx playwright test --grep @smoke
 
 **Nenad Antonic**  
 QA Automation Engineer
-[LinkedIn](https://www.linkedin.com/in/nenadantonic-qa//) | [GitHub](https://github.com/)
+[LinkedIn](https://www.linkedin.com/in/nenadantonic-qa//) | [GitHub](https://github.com/antonicnenad)
 
 ---
 
