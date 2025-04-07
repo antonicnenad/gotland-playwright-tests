@@ -5,6 +5,14 @@
 
 ---
 
+# 🧪 Gotland Playwright Tests
+
+[![Playwright Tests](https://github.com/antonicnenad/gotland-playwright-tests/actions/workflows/playwright.yml/badge.svg)](https://github.com/antonicnenad/gotland-playwright-tests/actions/workflows/playwright.yml)
+
+Automated end-to-end tests for Destination Gotland using Playwright and Docker.
+
+---
+
 ## 📁 Project Structure
 
 ```
