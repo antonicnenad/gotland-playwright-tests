@@ -1,0 +1,40 @@
+# 🐞 Bug Report – Broken Links in the Information Section
+
+**🔗 Affected URL:**  
+[https://www.destinationgotland.se/en/Booking-terms/](https://www.destinationgotland.se/en/Booking-terms/)
+
+**📍 Location on Page:**  
+At the bottom of the Accommodation page in the **Information** section (side menu), under links:
+
+- **Booking Terms**
+- **Questions & Answers**
+
+**🧭 Steps to Reproduce:**
+
+1. Scroll down to the “Information” section.
+2. Click on the **Booking terms** link.
+3. Observe that:
+   - The user is redirected to a broken URL.
+   - A `404 Page Not Found` message appears.
+   - The language automatically switches to Swedish.
+
+🔁 Same behavior occurs when clicking **Questions & answers**.
+
+---
+
+**❌ Actual Result:**  
+User lands on a 404 page (`Sidan saknas`) in **Swedish**, which is confusing for English-speaking users.
+
+**✅ Expected Result:**  
+The user should be redirected to a valid English version of the selected resource (e.g., booking terms or FAQ).
+
+---
+
+**🖼️ Screenshot:**  
+![Screenshot of the 404 error](image.png)
+
+**💡 Suggested Fix:**  
+Ensure that:
+
+- URLs for the "Booking Terms" and "Questions & Answers" point to valid, English-localized pages.
+- The language does **not** switch unexpectedly from English to Swedish.
